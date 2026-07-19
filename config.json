@@ -1,0 +1,16 @@
+{
+  "confianca_confirmada": 65,
+  "confianca_provavel": 35,
+  "confianca_minima": 10,
+  "usar_modelo": true,
+  "usar_marca": true,
+  "usar_medidas": true,
+  "pesos": {
+    "tipo_bem": 45,
+    "marca": 15,
+    "modelo": 15,
+    "medidas": 10,
+    "material": 5,
+    "similaridade_textual": 10
+  }
+}

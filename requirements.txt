@@ -1,0 +1,8 @@
+pandas
+openpyxl
+rapidfuzz
+customtkinter
+unidecode
+pyinstaller
+xlsxwriter
+pillow
