@@ -1,8 +1,10 @@
 @echo off
-echo Configurando o ambiente virtual...
+echo Criando ambiente virtual...
 python -m venv venv
+echo Ativando ambiente e instalando dependencias...
 call venv\Scripts\activate
-echo Instalando as dependencias...
+python -m pip install --upgrade pip
 pip install -r requirements.txt
-echo Configuracao concluida!
+echo.
+echo SETUP CONCLUIDO! Voce ja pode usar o rodar.bat
 pause
